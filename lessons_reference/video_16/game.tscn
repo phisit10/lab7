@@ -1,7 +1,8 @@
-[gd_scene load_steps=11 format=3 uid="uid://bpqvmc7qt8xut"]
+[gd_scene load_steps=12 format=3 uid="uid://bpqvmc7qt8xut"]
 
 [ext_resource type="PackedScene" uid="uid://d3kp34dihjeyd" path="res://lessons_reference/video_16/player/player.tscn" id="1_fqdcw"]
 [ext_resource type="Script" uid="uid://bl4rvfo6g3wbf" path="res://lessons_reference/video_16/game.gd" id="1_xym6k"]
+[ext_resource type="Texture2D" uid="uid://coby608186r8j" path="res://ground/พิสิษฐ์ ทรัพย์อุดมโชติ.png" id="2_6ve8k"]
 [ext_resource type="Material" uid="uid://spdpie6nlr1q" path="res://lessons_reference/video_16/level/bridges.tres" id="4_mc4jw"]
 [ext_resource type="PackedScene" uid="uid://xtl5acmpaa04" path="res://lessons_reference/video_16/mob/spawner_3d.tscn" id="5_7vlo8"]
 [ext_resource type="PackedScene" uid="uid://dfwbq2vombjvr" path="res://lessons_reference/video_16/mob/mob.tscn" id="5_787o4"]
@@ -44,12 +45,16 @@ shadow_enabled = true
 directional_shadow_max_distance = 40.0
 
 [node name="Label3" type="Label" parent="."]
-offset_left = 64.0
+offset_left = 67.0
 offset_top = 40.0
-offset_right = 348.0
+offset_right = 351.0
 offset_bottom = 91.0
 theme_override_font_sizes/font_size = 30
-text = "พิสิษฐ์ ทรัพย์อุดมโชติ"
+
+[node name="พิสิษฐ์ทรัพย์อุดมโชติ" type="Sprite2D" parent="Label3"]
+position = Vector2(153, 17)
+scale = Vector2(0.2962963, 0.2962963)
+texture = ExtResource("2_6ve8k")
 
 [node name="Label2" type="Label" parent="."]
 offset_left = 60.0

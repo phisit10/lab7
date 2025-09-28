@@ -18,8 +18,8 @@ res://lessons_reference/video_16/mob/spawner_3d.tscn::782e73ad81179c1abac588da16
 res://lessons_reference/video_16/player/projectile/projectile.tscn::2a4ed3f5d2236c7518ac9769e62c58b1::1759054873::res://.godot/exported/133200997/export-c1ee86bec35cab3027831aacc1a5a864-projectile.scn
 res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn::0b4276801ceda8bec8832f68d4064e55::1759057081::res://.godot/exported/133200997/export-40a2ff8ae31734e5c394994157877ece-blue_gun.scn
 res://lessons_reference/video_16/player/bullet_3d.tscn::5b8d48ae100a5fefc256707273d56cbb::1759054873::res://.godot/exported/133200997/export-a6c10e0df0e462cd74955e0460992677-bullet_3d.scn
-res://lessons_reference/video_16/player/player.tscn::43997f311792d35761b766f32891956e::1759058528::res://.godot/exported/133200997/export-18d6549b40611af1c98b09f0b2f0c965-player.scn
-res://lessons_reference/video_16/game.tscn::cf54f6efbe335dcf3cc7b3bfb8b2e8f8::1759077369::res://.godot/exported/133200997/export-73b433b4f182aea2466901cf920b0304-game.scn
+res://lessons_reference/video_16/player/player.tscn::43997f311792d35761b766f32891956e::1759078197::res://.godot/exported/133200997/export-18d6549b40611af1c98b09f0b2f0c965-player.scn
+res://lessons_reference/video_16/game.tscn::b6a654c13afd60b7958d8a98cd51780b::1759078064::res://.godot/exported/133200997/export-73b433b4f182aea2466901cf920b0304-game.scn
 res://level/temporary_level.tscn::d86875b6ec68aabfb2a5ac81f31f0099::1759054873::res://.godot/exported/133200997/export-17acc6de905c0fdddb7e0bfe2862ed19-temporary_level.scn
 res://mob/ghast/ghast.tscn::7bbdf0369dfee3ac87e70f1984cfb792::1759073679::res://.godot/exported/133200997/export-c7d3f2663e3a69a1609ebd681fcabcc7-ghast.scn
 res://mob/smoke_puff/material/inner_smoke.tres::1d15a1f7b0e4b028bcbd9fa0ed4bebb0::1759054873::res://.godot/exported/133200997/export-04a5b640f866f1ddd9de42b8f1156e32-inner_smoke.res
