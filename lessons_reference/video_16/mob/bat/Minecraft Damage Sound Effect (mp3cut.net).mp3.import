@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c6ya3skmhnudy"
+path="res://.godot/imported/Minecraft Damage Sound Effect (mp3cut.net).mp3-981ed0632bd723d8f61b9a887d04bacb.mp3str"
+
+[deps]
+
+source_file="res://lessons_reference/video_16/mob/bat/Minecraft Damage Sound Effect (mp3cut.net).mp3"
+dest_files=["res://.godot/imported/Minecraft Damage Sound Effect (mp3cut.net).mp3-981ed0632bd723d8f61b9a887d04bacb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

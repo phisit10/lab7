@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cyvpegk7wsl0m"
+path="res://.godot/imported/C418 - Minecraft - Minecraft Volume Alpha.mp3-b81df0100e4ee48405b9f99db755d53d.mp3str"
+
+[deps]
+
+source_file="res://ground/C418 - Minecraft - Minecraft Volume Alpha.mp3"
+dest_files=["res://.godot/imported/C418 - Minecraft - Minecraft Volume Alpha.mp3-b81df0100e4ee48405b9f99db755d53d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://lvy3u73fynpx"]
+
+[ext_resource type="PackedScene" uid="uid://cbm0h17v3bs2m" path="res://minecraft_flat_world (1).glb" id="1_nnmag"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ves1e"]
+size = Vector3(63.330944, 4.325, 63.38745)
+
+[node name="ground" instance=ExtResource("1_nnmag")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1117287, 0, 6.7784424)
+shape = SubResource("BoxShape3D_ves1e")

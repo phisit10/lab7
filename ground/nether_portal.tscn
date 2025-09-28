@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpv1o37uqm4by"]
+
+[ext_resource type="PackedScene" uid="uid://cb1v6xg6vm13s" path="res://ground/nether_portal.glb" id="1_h0r3d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tj4j3"]
+size = Vector3(6.343689, 8.01062, 1.6535645)
+
+[node name="nether portal" instance=ExtResource("1_h0r3d")]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2567444, 4.0842896, 0.019653328)
+shape = SubResource("BoxShape3D_tj4j3")

@@ -1,0 +1,15 @@
+res://lessons_reference/video_16/game.tscn
+res://lessons_reference/video_16/player/simple_gun/blue_gun.tscn
+res://lessons_reference/video_16/mob/bat/bat_material.tres
+res://lessons_reference/video_16/mob/bat/bat_model.tscn
+res://lessons_reference/video_16/mob/mob.tscn
+res://lessons_reference/video_16/player/player.tscn
+res://mob/ghast/ghast.tscn
+res://lessons_reference/video_16/mob/mob.gd
+res://lessons_reference/video_16/mob/bat/bat_model.gd
+res://lessons_reference/video_16/mob/spawner_3d.tscn
+res://lessons_reference/video_16/level/bridges.tres
+res://lessons_reference/video_16/level/platforms.tres
+res://ground/ground.tscn
+res://lessons_reference/video_16/game.gd
+res://lessons_reference/video_7/player/player.gd

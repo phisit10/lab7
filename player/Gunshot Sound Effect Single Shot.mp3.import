@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bnculykypfsle"
+path="res://.godot/imported/Gunshot Sound Effect Single Shot.mp3-e783a72beab58a560ca069c1681a5e0e.mp3str"
+
+[deps]
+
+source_file="res://player/Gunshot Sound Effect Single Shot.mp3"
+dest_files=["res://.godot/imported/Gunshot Sound Effect Single Shot.mp3-e783a72beab58a560ca069c1681a5e0e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8gs5vtd6vmxn"]
+
+[ext_resource type="PackedScene" uid="uid://dmvvlk6l38aug" path="res://minecraft_tree.glb" id="1_w5v0m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lw5wp"]
+size = Vector3(0.13806152, 1.0970459, 0.14251709)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nqc11"]
+size = Vector3(0.7175293, 0.5380249, 0.6657715)
+
+[node name="tree" instance=ExtResource("1_w5v0m")]
+
+[node name="Sketchfab_model" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07598877, 0.88946533, 0.069488525)
+shape = SubResource("BoxShape3D_lw5wp")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06921387, 1.1439514, 0.08239746)
+shape = SubResource("BoxShape3D_nqc11")

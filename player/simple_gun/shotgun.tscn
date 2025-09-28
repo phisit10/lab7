@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbm50srm4hufc"]
+
+[ext_resource type="PackedScene" uid="uid://bcq87by2yx5v8" path="res://player/simple_gun/remington_pump-action_shotgun.glb" id="1_35ng4"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_35ng4")]
+
+[node name="Shotgun Shell_Shotgun Shell and Ammo Box_0" parent="Sketchfab_model/424213be66ec49e9ae37face4991b5fe_fbx/RootNode/Shotgun Shell" index="0"]
+visible = false
+
+[node name="Shotgun Shell Fired_Shotgun Shell and Ammo Box_0" parent="Sketchfab_model/424213be66ec49e9ae37face4991b5fe_fbx/RootNode/Shotgun Shell Fired" index="0"]
+visible = false
